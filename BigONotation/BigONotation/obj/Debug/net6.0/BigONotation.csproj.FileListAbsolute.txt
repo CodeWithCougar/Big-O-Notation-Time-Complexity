@@ -1,0 +1,15 @@
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\bin\Debug\net6.0\BigONotation.exe
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\bin\Debug\net6.0\BigONotation.deps.json
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\bin\Debug\net6.0\BigONotation.runtimeconfig.json
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\bin\Debug\net6.0\BigONotation.dll
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\bin\Debug\net6.0\BigONotation.pdb
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.csproj.AssemblyReference.cache
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.AssemblyInfoInputs.cache
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.AssemblyInfo.cs
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.csproj.CoreCompileInputs.cache
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.dll
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\obj\Debug\net6.0\refint\BigONotation.dll
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.pdb
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\obj\Debug\net6.0\BigONotation.genruntimeconfig.cache
+C:\Users\wahid\OneDrive\CWC\DS\Code\BigONotation\BigONotation\obj\Debug\net6.0\ref\BigONotation.dll

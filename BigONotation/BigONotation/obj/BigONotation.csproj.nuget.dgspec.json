@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wahid\\OneDrive\\CWC\\DS\\Code\\BigONotation\\BigONotation\\BigONotation.csproj": {}
+    "C:\\Users\\Wahid\\OneDrive\\CWC\\DS\\Code\\Big-O-Notation-Time-Complexity\\BigONotation\\BigONotation\\BigONotation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wahid\\OneDrive\\CWC\\DS\\Code\\BigONotation\\BigONotation\\BigONotation.csproj": {
+    "C:\\Users\\Wahid\\OneDrive\\CWC\\DS\\Code\\Big-O-Notation-Time-Complexity\\BigONotation\\BigONotation\\BigONotation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wahid\\OneDrive\\CWC\\DS\\Code\\BigONotation\\BigONotation\\BigONotation.csproj",
+        "projectUniqueName": "C:\\Users\\Wahid\\OneDrive\\CWC\\DS\\Code\\Big-O-Notation-Time-Complexity\\BigONotation\\BigONotation\\BigONotation.csproj",
         "projectName": "BigONotation",
-        "projectPath": "C:\\Users\\wahid\\OneDrive\\CWC\\DS\\Code\\BigONotation\\BigONotation\\BigONotation.csproj",
-        "packagesPath": "C:\\Users\\wahid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wahid\\OneDrive\\CWC\\DS\\Code\\BigONotation\\BigONotation\\obj\\",
+        "projectPath": "C:\\Users\\Wahid\\OneDrive\\CWC\\DS\\Code\\Big-O-Notation-Time-Complexity\\BigONotation\\BigONotation\\BigONotation.csproj",
+        "packagesPath": "C:\\Users\\Wahid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wahid\\OneDrive\\CWC\\DS\\Code\\Big-O-Notation-Time-Complexity\\BigONotation\\BigONotation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\wahid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Wahid\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

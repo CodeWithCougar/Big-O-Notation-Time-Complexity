@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,11 +12,13 @@ namespace BigONotation
         private int numberOfOperations;
         public BigONotation() 
         { 
-            this.numberOfOperations = 0;
-            
+            numberOfOperations = 0;
         }
-        public int getNumberOfElements() { return this.numberOfOperations; }
-
+        
+        public int getNumberOfOperations()
+        {
+            return numberOfOperations;
+        }
         /* #################  Constant Time O(1) ################# */
         /*
             In this function, regardless of the size of the array, the operation array[0]
@@ -76,7 +79,6 @@ namespace BigONotation
         {
             for (int i = 0; i < array.Length; i++)
             {
-                numberOfOperations++;
                 if (array[i] == target)
                 {
                     return true;
@@ -85,7 +87,7 @@ namespace BigONotation
             return false;
         }
 
-        /* #################  Linear Time O(n) ################# */
+        /* #################  Logarithmic Time O(log n) ################# */
 
         /*
             In this function, with each iteration, the size of the problem is halved. Therefore, 
@@ -98,6 +100,7 @@ namespace BigONotation
             int right = array.Length - 1;
             while (left <= right)
             {
+                
                 int mid = left + (right - left) / 2;
 
                 // Check if target is present at the mid
@@ -116,6 +119,65 @@ namespace BigONotation
             // Target is not present in array
             return -1;
         }
+
+
+
+
+        /* #################  Quadratic Time O(n^2) ################# */
+
+        public void Process2DArray(int[,] arr)
+        {
+            int n = arr.GetLength(0);  // number of rows
+            int m = arr.GetLength(1);  // number of columns
+
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                {
+                    // process element arr[i,j]
+                    // For example, print the element
+                    Console.WriteLine(arr[i, j]);
+                }
+            }
+        }
+
+        public void Somefun(int[] array)
+        {
+            for (int i = 0; i < array.Length; i++)
+            {
+                for (int j = 0; j < array.Length; j++)
+                {
+                    // some operation
+                }
+            }
+        }
+
+
+
+        /* #################  Cubic Time O(n^3) ################# */
+        /*
+         CubicTimeComplexity is a method that creates a 3D array with n elements in each dimension. 
+         It then uses three nested loops to iterate over each element in the array, hence the cubic 
+         time complexity O(n^3). For an input size of n, the total number of iterations is n * n * n, 
+         which gives us the cubic time complexity.
+         */
+        static void CubicTimeComplexity(int n)
+        {
+            int[,,] arr = new int[n, n, n];
+
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    for (int k = 0; k < n; k++)
+                    {
+                        // Processing goes here
+                        arr[i, j, k] = i + j + k;
+                    }
+                }
+            }
+        }
+
 
     }
 }
